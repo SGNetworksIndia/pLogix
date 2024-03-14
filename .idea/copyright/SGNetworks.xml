@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="allowReplaceRegexp" value="SGNetworks" />
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year SGNetworks. All rights reserved.&#10;&#10;The software is an exclusive copyright of &quot;SGNetworks&quot; and is provided as is exclusively with only &quot;USAGE&quot; access. &quot;Modification&quot;,  &quot;Alteration&quot;, &quot;Re-distribution&quot; is completely prohibited.&#10;VIOLATING THE ABOVE TERMS IS A PUNISHABLE OFFENSE WHICH MAY LEAD TO LEGAL CONSEQUENCES." />
+    <option name="myName" value="SGNetworks" />
+  </copyright>
+</component>

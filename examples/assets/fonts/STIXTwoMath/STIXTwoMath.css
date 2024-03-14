@@ -1,0 +1,52 @@
+/*
+ * Copyright (c) 2024 SGNetworks. All rights reserved.
+ *
+ * The software is an exclusive copyright of "SGNetworks" and is provided as is exclusively with only "USAGE" access. "Modification",  "Alteration", "Re-distribution" is completely prohibited.
+ * VIOLATING THE ABOVE TERMS IS A PUNISHABLE OFFENSE WHICH MAY LEAD TO LEGAL CONSEQUENCES.
+ */
+
+
+@font-face {
+	font-family: STIXTwoMath;
+	src: url("./STIXTwoMath-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextBold;
+	src: url("./STIXTwoText-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextBoldItalic;
+	src: url("./STIXTwoText-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextItalic;
+	src: url("./STIXTwoText-Italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextMedium;
+	src: url("./STIXTwoText-Medium.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextMediumItalic;
+	src: url("./STIXTwoText-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextRegular;
+	src: url("./STIXTwoText-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextSemiBold;
+	src: url("./STIXTwoText-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: STIXTwoTextSemiBoldItalic;
+	src: url("./STIXTwoText-SemiBoldItalic.otf") format("opentype");
+}

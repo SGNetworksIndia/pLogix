@@ -1,0 +1,80 @@
+/*
+ * Copyright (c) 2024 SGNetworks. All rights reserved.
+ *
+ * The software is an exclusive copyright of "SGNetworks" and is provided as is exclusively with only "USAGE" access. "Modification",  "Alteration", "Re-distribution" is completely prohibited.
+ * VIOLATING THE ABOVE TERMS IS A PUNISHABLE OFFENSE WHICH MAY LEAD TO LEGAL CONSEQUENCES.
+ */
+
+@font-face {
+	font-family: LibertinusKeyboard;
+	src: url("./OTF/LibertinusKeyboard-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusMath;
+	src: url("./OTF/LibertinusMath-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusMono;
+	src: url("./OTF/LibertinusMono-Regular.otf") format("opentype");
+}
+
+
+@font-face {
+	font-family: LibertinusSansBold;
+	src: url("./OTF/LibertinusSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSansItalic;
+	src: url("./OTF/LibertinusSans-Italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSansRegular;
+	src: url("./OTF/LibertinusSans-Regular.otf") format("opentype");
+}
+
+
+
+@font-face {
+	font-family: LibertinusSerifBold;
+	src: url("./OTF/LibertinusSerif-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSerifBoldItalic;
+	src: url("./OTF/LibertinusSerif-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSerifItalic;
+	src: url("./OTF/LibertinusSerif-Italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSerifRegular;
+	src: url("./OTF/LibertinusSerif-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSerifSemiBold;
+	src: url("./OTF/LibertinusSerif-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSerifSemiBoldItalic;
+	src: url("./OTF/LibertinusSerif-SemiBoldItalic.otf") format("opentype");
+}
+
+
+@font-face {
+	font-family: LibertinusSerifDisplayRegular;
+	src: url("./OTF/LibertinusSerifDisplay-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LibertinusSerifInitials;
+	src: url("./OTF/LibertinusSerifInitials-Regular.otf") format("opentype");
+}

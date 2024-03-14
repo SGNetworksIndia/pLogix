@@ -1,0 +1,84 @@
+/*
+ * Copyright (c) 2024 SGNetworks. All rights reserved.
+ *
+ * The software is an exclusive copyright of "SGNetworks" and is provided as is exclusively with only "USAGE" access. "Modification",  "Alteration", "Re-distribution" is completely prohibited.
+ * VIOLATING THE ABOVE TERMS IS A PUNISHABLE OFFENSE WHICH MAY LEAD TO LEGAL CONSEQUENCES.
+ */
+
+@import "../fonts/FiraMath/FiraMath.css";
+@import "../fonts/GaramondMath/GaramondMath.css";
+@import "../fonts/LibertinusMath/LibertinusMath.css";
+@import "../fonts/LMMath/LMMaths.css";
+@import "../fonts/STIXTwoMath/STIXTwoMath.css";
+
+body,
+body * {
+	font-size: 1.2rem;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid #dddddd;
+}
+
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04aa6d;
+	color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:hover {background-color: #dddddd;}
+
+.maths {
+	font-family: STIXTwoMath, math;
+}
+
+mjx-root > mjx-mn > mjx-c::before {
+	font-size: .8rem;
+	padding: 0 !important;
+	position: relative;
+	right: 2px;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+	display: unset !important;
+	text-align: unset !important;
+	margin: 0 !important;
+}
+
+sub {
+	position: relative;
+	top: 4px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: hsl(0, 0%, 0%);
+	}
+
+	th, td {
+		border-color: hsl(0, 0%, 13%);
+		color: hsl(0, 0%, 95%);
+	}
+
+	tr:nth-child(odd) {
+		background-color: hsl(0, 0%, 0%);
+	}
+
+	tr:nth-child(even) {
+		background-color: hsl(0, 0%, 5%);
+	}
+
+	tr:hover {background-color: hsl(0, 0%, 13%);}
+}
