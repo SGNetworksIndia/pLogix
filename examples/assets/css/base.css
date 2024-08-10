@@ -43,11 +43,21 @@ tr:hover {background-color: #dddddd;}
 	font-family: STIXTwoMath, math;
 }
 
+mjx-mtext {
+	/*display: block !important;
+	height: 1.2rem !important;*/
+}
+
+mjx-msub mjx-script mjx-c::before {
+	position: relative !important;
+	top: 0.413em !important;
+}
+
 mjx-root > mjx-mn > mjx-c::before {
-	font-size: .8rem;
+	font-size: .8rem !important;
 	padding: 0 !important;
-	position: relative;
-	right: 2px;
+	position: relative !important;
+	right: 2px !important;
 }
 
 mjx-container[jax="CHTML"][display="true"] {
@@ -62,6 +72,67 @@ sub {
 }
 
 
+
+
+
+.class {
+	color: hsl(320, 50%, 30%);
+}
+
+.method {
+	color: hsl(220, 80%, 50%);
+}
+
+.parameter {
+	color: hsl(0, 0%, 40%);
+	background-color: hsl(233, 0%, 80%);
+	padding: 2px 6px;
+	font-size: 1rem;
+	border-radius: 5px;
+	margin-inline-end: 2px;
+}
+
+.parameter:after {
+	content: ':';
+}
+
+.value {
+	color: hsl(190, 65%, 50%);
+}
+
+.return {
+	color: hsl(20, 50%, 60%);
+}
+
+.logo,
+.logos > .sgn {
+	height: 56px;
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	position: relative;
+	background-image: url('../images/dark.png');
+}
+.logos > .sgn {
+	height: 30px;
+	background-size: 90px;
+	background-position: 53% 5px;
+	background-image: url('../images/sgn-dark.png');
+	color: black;
+}
+.logos > .sgn:before {
+	content: 'By ';
+	position: absolute;
+	top: 0;
+	right: 50%;
+}
+
+
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: hsl(0, 0%, 0%);
@@ -70,6 +141,11 @@ sub {
 	th, td {
 		border-color: hsl(0, 0%, 13%);
 		color: hsl(0, 0%, 95%);
+	}
+
+	.parameter {
+		color: hsl(0, 0%, 50%);
+		background-color: hsl(233, 9%, 19%);
 	}
 
 	tr:nth-child(odd) {
@@ -81,4 +157,12 @@ sub {
 	}
 
 	tr:hover {background-color: hsl(0, 0%, 13%);}
+	
+	.logo {
+		background-image: url('../images/light.png');
+	}
+	.logos > .sgn {
+		background-image: url('../images/sgn-light.png');
+		color: white;
+	}
 }
